@@ -212,7 +212,7 @@ post /products/_doc
 ```
 
 Lets retrive the document with curl get request : 
-```console
+```bash
  $ curl -H "Content-Type:application/json" -u elastic:Q1w2e3r4t5y6 --cacert ca.crt -X GET  https://localhost:9200/products/_doc/s4dQ2YQBdupJyOWaGEPV  | jq
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
